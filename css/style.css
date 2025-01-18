@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+#aside {
+  float: left;
+  width: 75%;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+.img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile {
+  text-align: center;
+  object-fit: cover;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+  #aside,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+
+  header.header {
+    display: inline;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  #aside, aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+
+  header.header {
+    display: inline;
+  } */
+/* } */
+
+@media screen and (max-width: 1000px) {
+  #aside,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+
+  header.header {
+    display: inline;
+  }
+}
